@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class P{
+public class CodigoOperaciones{
  public static void main(String [] args){
 
     int valor_uno = 0; // Aqui creamos todas las variables que usaremos
