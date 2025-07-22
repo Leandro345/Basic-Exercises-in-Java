@@ -1,5 +1,12 @@
-//Programa basico en JAVA
+/******************************************************
+CodigoOperaciones.java
+Leandro Feliz 
 
+Descripcion Basica: Este programa pide al usuario
+dos valores numericos, y despues le pide que operacion
+matematica el usuario quiere hacer, finalmente muestra
+el resultado de esta.
+******************************************************/
 import java.util.Scanner;
 
 public class CodigoOperaciones{

@@ -1,3 +1,13 @@
+/**********************************************************************
+ SumaNumerosPares.java
+ Leandro Feliz
+
+ Descripcion Basica: Este programa pide al usuario una cantidad 
+ de 4 numeros a insertar, despues muestra en pantalla los numeros
+ que inserto y el resultado de la suma de unicamente los que son
+ pares.
+ *********************************************************************/
+
 import java.util.Scanner;
 
 public class SumaNumerosPares
