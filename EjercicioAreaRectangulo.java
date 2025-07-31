@@ -17,5 +17,7 @@ public class EjercicioAreaRectangulo {
        resultadoArea = largoRectangulo * anchoRectangulo;
 
        System.out.println("El area de su rectangulo es igual a: " + resultadoArea);
+
+       entradaDelTeclado.close();
     }
 }
