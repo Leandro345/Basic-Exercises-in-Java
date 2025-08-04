@@ -48,7 +48,11 @@ public class CaloriasComidas
             System.out.println("Kcal totales: " + kcalTotal+ "."); //Imprimimos kcal totales
 
 
-        } //Final estructura "IF"
+        } else {
+
+            System.out.println("Ups, alimentos no insertados."); //Opcion alternativa por si el usuario no inserto ninguna alimento.
+
+        }//Final estructura "IF"
 
         System.out.println("Buen trabajo!"); //Verificamos que todo este en orden
 
