@@ -15,7 +15,7 @@ public class CalculoFactorial
     {
 
         Scanner entradaTeclado = new Scanner(System.in); //Inicializamos objeto Scanner y variables a usar
-        double factorial = 0;
+        double factorial = 1;
         int numeroUsuario = 0;
 
         System.out.print("Inserte un numero: ");
@@ -27,7 +27,7 @@ public class CalculoFactorial
 
         } else { //Si el valor del usuario es mayor a 0 se calcula el factorial
 
-            for(i = 0; i <= numeroUsuario; i++){ //El bucle se itera la cantidad de veces segun el valor del Usuario
+            for(int i = 1; i <= numeroUsuario; i++){ //El bucle se itera la cantidad de veces segun el valor del Usuario
 
                 factorial *= i; //En cada iteracion se calcula el resultado de el factorial por el indice, y no se reasigna en cada iteracion, sino que se actualiza o suma al valor que posea
 

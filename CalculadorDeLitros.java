@@ -26,13 +26,21 @@ public class CalculadorDeLitros
         
         entradaTeclado.nextLine(); //Limpiamos Buffer de saltos de linea
 
-        while (cantidadAguaActual >= cantidadMaximaTanque) {
+        while (cantidadAguaActual + litrosPorMinuto <= cantidadMaximaTanque) {
             minutoActual += 1; //Incremetamos la cantidad de minutos cada vez que se repita el bucle
 
             cantidadAguaActual += litrosPorMinuto; //Aumentamos la cantidad de agua en el tanque en cada iteracion
-            System.out.println(minutoActual + " minuto: " + cantidadAguaActual + " litros."); //Imprimimos el proceso de cada iteracion
 
-        }// I will finish you i sweaaaarrrr
+            if (cantidadAguaActual + litrosPorMinuto >= cantidadMaximaTanque) { //Hacemos que cuando vaya a pasarse en la proxima iteracion se iguale al maximo, haciendo que de esta manera en la proxima iteracion la condicion sea falsa.
+                cantidadAguaActual = cantidadMaximaTanque;
+            }
+
+            System.out.println(minutoActual + " minutos: " + cantidadAguaActual + " litros."); //Imprimimos el proceso de cada iteracion
+
+        }
+
+        System.out.println("Tanque lleno en un total de " + minutoActual + " minutos.");
+        System.out.println("Buen trabajo!");
 
     }
 }

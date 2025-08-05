@@ -32,14 +32,13 @@ public class ImpresorDeCaracteres
 
         System.out.println("Resultado: ");
 
-        for( int reg = 1; reg >= cantidadRenglones; reg++){
+        for( int reg = 0; reg < cantidadRenglones; reg++){
 
-            for(int col = 1; col >= cantidadRenglones; col++){
+            for(int col = 0; col < cantidadColumnas ; col++){
 
-                System.out.println(caracterUsuario);
+                System.out.print(caracterUsuario);
 
             }//Final bucle "Col"
-
 
             System.out.println();
 
