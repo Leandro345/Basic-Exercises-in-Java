@@ -1,3 +1,12 @@
+/**************************************************
+EjercicioAreaRectangulo.java 
+Leandro Feliz
+
+Descripcion Basica: Este programa pide al usuario
+valores de ancho y largo de un rectangulo, y al
+final muestra el area de este.
+**************************************************/
+
 import java.util.Scanner;
 
 public class EjercicioAreaRectangulo {
@@ -17,5 +26,6 @@ public class EjercicioAreaRectangulo {
        resultadoArea = largoRectangulo * anchoRectangulo;
 
        System.out.println("El area de su rectangulo es igual a: " + resultadoArea);
+       System.out.println("Buen trabajo! :)");
     }
 }
