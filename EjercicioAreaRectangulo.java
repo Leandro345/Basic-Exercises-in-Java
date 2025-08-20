@@ -12,7 +12,8 @@ import java.util.Scanner;
 public class EjercicioAreaRectangulo {
     public static void main (String[] args)
     {
-       int largoRectangulo = 0, anchoRectangulo = 0, resultadoArea = 0;
+       double largoRectangulo = 0, anchoRectangulo = 0;
+       double resultadoArea = 0;
        Scanner entradaDelTeclado = new Scanner(System.in);
        
        System.out.println("Bienvenido al programa calculador de areas de rectangulos!");
